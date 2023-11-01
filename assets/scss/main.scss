@@ -1,0 +1,21 @@
+@import "bootstrap/scss/bootstrap";
+
+@font-face {
+  font-family: "HelveticaNeueRegular";
+  src: url("/fonts/HelveticaNeueRegular.otf") format("otf");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  font-family: "Roboto", "HelveticaNeueRegular", Arial, sans-serif;
+}
