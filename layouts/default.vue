@@ -1,8 +1,10 @@
 <template>
   <div class="layout-default">
-    <AppHeader />
-
-    <slot />
-    <AppFooter />
+    <LayoutSnowflakes />
+    <LayoutAppHeader />
+    <main class="main-content" role="main">
+      <slot />
+    </main>
+    <LayoutAppFooter />
   </div>
 </template>
