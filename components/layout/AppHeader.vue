@@ -134,10 +134,10 @@
               >
               <NuxtLink
                 class="nav-link text-uppercase fw-bolder text-white fs-link"
-                :class="{ active: $route.path === '/blog' }"
-                :aria-current="$route.path === '/blog' ? 'page' : null"
-                to="/blog"
-                >Blog</NuxtLink
+                :class="{ active: $route.path === '/about-us' }"
+                :aria-current="$route.path === '/about-us' ? 'page' : null"
+                to="/"
+                >Về Suplo</NuxtLink
               >
               <NuxtLink
                 class="nav-link text-uppercase fw-bolder text-white fs-link"
@@ -145,6 +145,13 @@
                 :aria-current="$route.path === '/product' ? 'page' : null"
                 to="/product"
                 >Sản phẩm</NuxtLink
+              >
+              <NuxtLink
+                class="nav-link text-uppercase fw-bolder text-white fs-link"
+                :class="{ active: $route.path === '/blog' }"
+                :aria-current="$route.path === '/blog' ? 'page' : null"
+                to="/blog"
+                >Blog</NuxtLink
               >
             </div>
           </div>

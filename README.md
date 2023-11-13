@@ -2,13 +2,15 @@
 
 Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
 
+[Theme](https://themes.haravan.com/pages/demo?id=suplo-fashion.myharavan.com&pro=suplo-fashion&fbclid=IwAR1IhH953hmeJ0mWMebUsDmXVKlL2JYr--eXP4NvAgPcwzHqcIJgDVIOnmQ)
+
 ## Setup
 
 Make sure to install the dependencies:
 
 ```bash
-# npm
-npm install
+# yarn
+yarn install
 ```
 
 ## Development Server
@@ -16,8 +18,8 @@ npm install
 Start the development server on `http://localhost:3000`:
 
 ```bash
-# npm
-npm run dev
+# yarn
+yarn dev
 
 ```
 
@@ -26,15 +28,15 @@ npm run dev
 Build the application for production:
 
 ```bash
-# npm
-npm run build
+# yarn
+yarn build
 ```
 
 Locally preview production build:
 
 ```bash
-# npm
-npm run preview
+# yarn
+yarn preview
 
 ```
 
