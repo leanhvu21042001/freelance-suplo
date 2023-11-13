@@ -3,7 +3,7 @@ const title = "Tất cả sản phẩm";
 </script>
 
 <template>
-  <div id="product-page-content">
+  <div id="all-product-page-content">
     <BaseBreadcrumb :title="title" />
 
     <div class="container py-5">

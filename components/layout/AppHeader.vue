@@ -164,6 +164,13 @@
                 to="/blog"
                 >Blog</NuxtLink
               >
+              <NuxtLink
+                class="nav-link text-uppercase fw-bolder text-white fs-link"
+                :class="{ active: $route.path === '/contact' }"
+                :aria-current="$route.path === '/contact' ? 'page' : null"
+                to="/contact"
+                >Liên hệ</NuxtLink
+              >
             </div>
           </div>
         </div>
@@ -190,25 +197,48 @@
         <div>
           <div class="navbar-nav">
             <NuxtLink
-              class="nav-link text-uppercase fw-bolder"
+              class="nav-link text-uppercase fw-bolder text-white fs-link"
               :class="{ active: $route.path === '/' }"
               :aria-current="$route.path === '/' ? 'page' : null"
               to="/"
               >Trang chủ</NuxtLink
             >
             <NuxtLink
-              class="nav-link text-uppercase fw-bolder"
+              class="nav-link text-uppercase fw-bolder text-white fs-link"
+              :class="{ active: $route.path === '/about-us' }"
+              :aria-current="$route.path === '/about-us' ? 'page' : null"
+              to="/"
+              >Về Suplo</NuxtLink
+            >
+            <NuxtLink
+              class="nav-link text-uppercase fw-bolder text-white fs-link"
+              :class="{ active: $route.path === '/collections/all' }"
+              :aria-current="$route.path === '/collections/all' ? 'page' : null"
+              to="/collections/all"
+              >Sản phẩm</NuxtLink
+            >
+            <NuxtLink
+              class="nav-link text-uppercase fw-bolder text-white fs-link"
+              :class="{ active: $route.path === '/collections/sale-of' }"
+              :aria-current="
+                $route.path === '/collections/sale-of' ? 'page' : null
+              "
+              to="/collections/sale-of"
+              >Khuyến mãi</NuxtLink
+            >
+            <NuxtLink
+              class="nav-link text-uppercase fw-bolder text-white fs-link"
               :class="{ active: $route.path === '/blog' }"
               :aria-current="$route.path === '/blog' ? 'page' : null"
               to="/blog"
               >Blog</NuxtLink
             >
             <NuxtLink
-              class="nav-link text-uppercase fw-bolder"
-              :class="{ active: $route.path === '/product' }"
-              :aria-current="$route.path === '/product' ? 'page' : null"
-              to="/product"
-              >Sản phẩm</NuxtLink
+              class="nav-link text-uppercase fw-bolder text-white fs-link"
+              :class="{ active: $route.path === '/contact' }"
+              :aria-current="$route.path === '/contact' ? 'page' : null"
+              to="/contact"
+              >Liên hệ</NuxtLink
             >
           </div>
         </div>

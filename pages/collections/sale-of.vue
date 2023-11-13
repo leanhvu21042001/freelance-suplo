@@ -3,7 +3,7 @@ const title = "Khuyến mãi";
 </script>
 
 <template>
-  <div id="product-page-content">
+  <div id="sale-of-page-content">
     <BaseBreadcrumb :title="title" />
 
     <div class="container py-5">
