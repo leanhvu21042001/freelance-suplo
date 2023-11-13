@@ -141,10 +141,21 @@
               >
               <NuxtLink
                 class="nav-link text-uppercase fw-bolder text-white fs-link"
-                :class="{ active: $route.path === '/product' }"
-                :aria-current="$route.path === '/product' ? 'page' : null"
-                to="/product"
+                :class="{ active: $route.path === '/collections/all' }"
+                :aria-current="
+                  $route.path === '/collections/all' ? 'page' : null
+                "
+                to="/collections/all"
                 >Sản phẩm</NuxtLink
+              >
+              <NuxtLink
+                class="nav-link text-uppercase fw-bolder text-white fs-link"
+                :class="{ active: $route.path === '/collections/sale-of' }"
+                :aria-current="
+                  $route.path === '/collections/sale-of' ? 'page' : null
+                "
+                to="/collections/sale-of"
+                >Khuyến mãi</NuxtLink
               >
               <NuxtLink
                 class="nav-link text-uppercase fw-bolder text-white fs-link"
