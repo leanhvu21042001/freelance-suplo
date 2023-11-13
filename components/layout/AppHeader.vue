@@ -171,6 +171,13 @@
                 to="/contact"
                 >Liên hệ</NuxtLink
               >
+              <NuxtLink
+                class="nav-link text-uppercase fw-bolder text-white fs-link"
+                :class="{ active: $route.path === '/shop-system' }"
+                :aria-current="$route.path === '/shop-system' ? 'page' : null"
+                to="/shop-system"
+                >Hệ thống cửa hàng</NuxtLink
+              >
             </div>
           </div>
         </div>
@@ -239,6 +246,13 @@
               :aria-current="$route.path === '/contact' ? 'page' : null"
               to="/contact"
               >Liên hệ</NuxtLink
+            >
+            <NuxtLink
+              class="nav-link text-uppercase fw-bolder text-white fs-link"
+              :class="{ active: $route.path === '/shop-system' }"
+              :aria-current="$route.path === '/shop-system' ? 'page' : null"
+              to="/shop-system"
+              >Hệ thống cửa hàng</NuxtLink
             >
           </div>
         </div>
